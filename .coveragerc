@@ -7,7 +7,8 @@ omit =
         /private/*
         .tox/*
         *.pyenv*
-        *.venv*
+        *venv*
         */AppData/*
         setup.py
         runner.py
+        *pathlib.py*
