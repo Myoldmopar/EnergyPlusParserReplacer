@@ -9,7 +9,8 @@ jobs:
         with:
           python-version: 3.8
       - run: pip install -r requirements.txt
-      - run: python3 setup.py nosetests
+      - run: coverage run setup.py test
+      - run: coverage report
 #      - name: Upload
 #        env:
 #          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

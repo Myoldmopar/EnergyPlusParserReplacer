@@ -1,5 +1,6 @@
 [run]
 source = parser_replacer
+branch = True
 
 omit =
         /usr/*
@@ -12,3 +13,9 @@ omit =
         setup.py
         runner.py
         *pathlib.py*
+
+[report]
+ignore_errors = True
+
+[html]
+directory = coverage_html_report
