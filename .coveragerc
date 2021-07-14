@@ -1,0 +1,13 @@
+[run]
+source = parser_replacer
+
+omit =
+        /usr/*
+        /tmp/*
+        /private/*
+        .tox/*
+        *.pyenv*
+        *.venv*
+        */AppData/*
+        setup.py
+        runner.py
