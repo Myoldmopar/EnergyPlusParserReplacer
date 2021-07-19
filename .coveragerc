@@ -1,7 +1,4 @@
 [run]
-source = parser_replacer
-branch = True
-
 omit =
         /usr/*
         /tmp/*
@@ -16,6 +13,3 @@ omit =
 
 [report]
 ignore_errors = True
-
-[html]
-directory = coverage_html_report
